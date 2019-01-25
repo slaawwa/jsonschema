@@ -1,5 +1,6 @@
 import validate from './validate'
+import data from './data'
 
-const valid = validate(4, '/schema.json')
+const valid = validate(data, '/schema.json')
 
 console.log('Validate:', valid)
